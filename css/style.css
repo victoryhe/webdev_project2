@@ -1,76 +1,35 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-=======
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
-<<<<<<< HEAD
->>>>>>> parent of 5477bfb (Update style.css)
 body {
   font-family: 'Roboto', sans-serif; 
   color: #333;
-<<<<<<< HEAD
-  background-color: #f0f2f5;
-  margin: 0 auto;
-  max-width: 100%;
-  padding: 2%;
-=======
-=======
-body {
-  font-family: 'Roboto', sans-serif; 
-  color: #333;
->>>>>>> parent of 5477bfb (Update style.css)
   background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
+margin: 0;
+padding: 0;
   line-height: 1.6;
-<<<<<<< HEAD
->>>>>>> parent of 5477bfb (Update style.css)
-=======
->>>>>>> parent of 5477bfb (Update style.css)
 }
 
 ul {
-  list-style: none;
+list-style: none;
   padding: 0;
 }
 
 a {
-  text-decoration: none;
-  color: #007bff;
+@@ -21,79 +25,83 @@ a:hover {
+text-decoration: underline;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-section {
-  padding: 2em;
-  margin-bottom: 1em;
-  background-color: #ffffff;
-  color: #333; /* Text color to ensure visibility */
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for contrast */
-=======
-=======
->>>>>>> parent of 5477bfb (Update style.css)
 
 ul {
   background-color: #333;
-  padding: 10px;
+padding: 10px;
   text-align: center;
-<<<<<<< HEAD
->>>>>>> parent of 5477bfb (Update style.css)
-=======
->>>>>>> parent of 5477bfb (Update style.css)
 }
 
 ul li {
-  display: inline;
+display: inline;
   margin: 0 15px;
 }
 
@@ -91,7 +50,7 @@ section {
 
 
 h1, h2 {
-  text-align: center;
+text-align: center;
   margin-bottom: 20px;
 }
 
@@ -102,7 +61,7 @@ h1 {
 
 h2 {
   font-size: 1.75rem;
-  color: #007bff;
+color: #007bff;
 }
 
 #resume h1 {
@@ -138,24 +97,7 @@ h2 {
     font-size: 1.5rem;
   }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-footer {
-  text-align: center;
-  font-size: 0.9em;
-  color: #555;
-  margin-top: 2em;
-  padding-top: 1em;
-  border-top: 1px solid #ddd;
-=======
-  h2 {
-    font-size: 1.25rem;
-  }
->>>>>>> parent of 5477bfb (Update style.css)
-}
-=======
   h2 {
     font-size: 1.25rem;
   }
 }
->>>>>>> parent of 5477bfb (Update style.css)
