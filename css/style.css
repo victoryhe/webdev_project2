@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  color:#a6c9e3;
+  color: #968bb1;
 }
 
 ul {
@@ -40,7 +40,7 @@ section {
   padding: 20px;
   margin: 20px auto;
   width: 90%;
-  color: #a6c9e3;
+  color: #968bb1;
   max-width: 1000px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
