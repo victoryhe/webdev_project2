@@ -2,8 +2,8 @@
 
 body {
   font-family: 'Roboto', Arial, sans-serif; 
-  color: #333;
-  background-color: #f4f4f4; 
+  color: #333; 
+  background-color: #f4f4f4;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -12,6 +12,7 @@ body {
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 a {
@@ -27,6 +28,10 @@ ul {
   background-color: #333;
   padding: 10px;
   text-align: center;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 ul li {
@@ -36,17 +41,6 @@ ul li {
 
 ul li a {
   color: white;
-}
-
-section {
-  padding: 20px;
-  margin: 20px auto;
-  width: 90%;
-  max-width: 1000px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  position: relative; 
 }
 
 .sidebar {
@@ -61,13 +55,18 @@ section {
 
 .section-content {
   overflow: auto;
+  margin-top: 60px; 
 }
 
-ul {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
+section {
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1000px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 h1, h2 {
