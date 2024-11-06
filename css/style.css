@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  font-family: 'Roboto', Arial, sans-serif; 
+  font-family: 'Roboto', Arial, sans-serif;
   color: #333;
   background-color: #f4f4f4;
   margin: 0;
@@ -12,30 +12,28 @@ body {
 ul {
   list-style: none;
   padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #007bff;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-ul {
+  margin: 0;
   background-color: #333;
-  padding: 10px;
   text-align: center;
 }
 
 ul li {
-  display: inline;
+  display: inline-block;
   margin: 0 15px;
 }
 
 ul li a {
   color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+ul li a:hover {
+  background-color: #575757; 
+  border-radius: 5px;
 }
 
 section {
@@ -64,7 +62,7 @@ h2 {
 }
 
 #resume h1 {
-  color: #2a9d8f; 
+  color: #2a9d8f;
 }
 
 #resume section {
@@ -72,7 +70,7 @@ h2 {
 }
 
 #plasticpollution h1 {
-  color: #d9534f; 
+  color: #d9534f;
 }
 
 #plasticpollution section {
@@ -80,7 +78,7 @@ h2 {
 }
 
 #dragonfruit h1 {
-  color: #ff4500; 
+  color: #ff4500;
 }
 
 #dragonfruit section {
