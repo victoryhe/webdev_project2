@@ -3,7 +3,7 @@
 body {
   font-family: 'Roboto', Arial, sans-serif; 
   color: #333; 
-  background-color: #f4f4f4;
+  background-color: #f4f4f4; 
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -24,9 +24,9 @@ a:hover {
   text-decoration: underline;
 }
 
-ul {
+ul.navbar {
   background-color: #333;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
   position: fixed; 
   top: 0;
@@ -34,14 +34,19 @@ ul {
   z-index: 1000;
 }
 
-ul li {
+ul.navbar li {
   display: inline;
   margin: 0 15px;
 }
 
-ul li a {
-  color: white;
+ul.navbar li a {
+  color: white; 
 }
+
+body {
+  padding-top: 70px; 
+}
+
 
 .sidebar {
   float: left;
@@ -51,11 +56,11 @@ ul li a {
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  color: #333; 
 }
 
 .section-content {
   overflow: auto;
-  margin-top: 60px; 
 }
 
 section {
@@ -63,10 +68,11 @@ section {
   margin: 20px auto;
   width: 90%;
   max-width: 1000px;
-  background-color: #fff;
+  background-color: #fff; 
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: relative;
+  color: #333; 
 }
 
 h1, h2 {
@@ -76,12 +82,12 @@ h1, h2 {
 
 h1 {
   font-size: 2rem;
-  color: #333;
+  color: #333; 
 }
 
 h2 {
   font-size: 1.75rem;
-  color: #007bff;
+  color: #007bff; 
 }
 
 #resume h1 {
@@ -113,7 +119,7 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: #333;
-  color: white;
+  color: white; 
   text-align: center;
   padding: 10px;
 }
